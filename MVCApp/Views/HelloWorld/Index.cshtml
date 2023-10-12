@@ -1,0 +1,13 @@
+﻿@model List<MVCApp.Models.DogViewModel>
+
+<h1> Hello Dog!</h1>
+
+
+
+<ul>
+@foreach(var dog in Model)
+{
+    <li> @dog.Name (@dog.Age)</li>
+
+}
+</ul>
